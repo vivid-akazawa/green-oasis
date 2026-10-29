@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Green Oasis｜渋谷のオーガニックカフェ</title>
+  <meta name="description" content="渋谷の路地裏にあるオーガニックカフェ。契約農家の野菜を使ったランチを、ひとりでも、時間を気にせず。">
+
+  <!-- フォント（Google Fonts）：和文は Noto Sans JP、英字は Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <a class="site-header__brand" href="#">Green Oasis</a>
+    <a class="site-header__menu" href="#menu">Menu<span class="pc-only">&nbsp;&nbsp;/&nbsp;&nbsp;メニュー</span></a>
+    <a class="button button--light site-header__reserve pc-only" href="#access">
+      <span>席を予約する</span><span class="button__arrow">↗</span>
+    </a>
+  </header>
+
+  <main>
+
+    <!-- 01 ファーストビュー -->
+    <section class="hero">
+      <div class="hero__visual">
+        <!-- PCとスマホで写真を変える -->
+        <picture>
+          <source media="(max-width: 767px)" srcset="images/hero-sp.jpg">
+          <img src="images/hero-pc.jpg" alt="窓辺の席でくつろぐお客様と、植物の多い明るい店内">
+        </picture>
+      </div>
+
+      <div class="hero__body container">
+        <div class="hero__message">
+          <p class="hero__eyebrow">ORGANIC CAFE / SHIBUYA</p>
+          <h1 class="hero__catch">忙しい日こそ、<br>ちゃんと食べる。</h1>
+          <p class="hero__sub">渋谷の路地裏で、契約農家の野菜を。<br>ひとりでも、時間を気にせず。</p>
+          <p class="hero__essentials-sp sp-only">ひとり歓迎 / 時間制限なし<br>ランチ ¥1,200–1,500（税込）</p>
+          <a class="button button--light hero__button" href="#access">
+            <span>席を予約する</span><span class="button__arrow">↗</span>
+          </a>
+          <p class="hero__microcopy sp-only">渋谷駅 徒歩5分 / ひとりのご予約も歓迎</p>
+        </div>
+        <p class="hero__wordmark pc-only" aria-hidden="true">Green Oasis</p>
+      </div>
+
+      <ul class="hero__essentials pc-only">
+        <li>渋谷駅 徒歩5分&nbsp;&nbsp;/&nbsp;&nbsp;8:00–20:00</li>
+        <li>ひとりでも歓迎　/　時間制限なし</li>
+        <li>ランチ ¥1,200–1,500（税込）</li>
+      </ul>
+    </section>
+
+    <!-- 02 問題提起 -->
+    <section class="section moment">
+      <div class="container">
+        <div class="moment__intro">
+          <p class="eyebrow">A MOMENT FOR YOURSELF</p>
+          <h2 class="heading">お昼ごはんを、<br class="sp-only">後回しにしていませんか。</h2>
+          <p class="lead">いつものコンビニ。慌ただしいランチ。<br class="sp-only">ひとりで落ち着ける場所も、見つからない。<br>そんな毎日に、小さなひと休みを。</p>
+        </div>
+        <ul class="voices">
+          <li class="voices__item">
+            <p class="voices__quote">「ちゃんと食べたい」</p>
+            <p class="voices__note">でも、選ぶ時間がない。</p>
+          </li>
+          <li class="voices__item">
+            <p class="voices__quote">「ひとりで過ごしたい」</p>
+            <p class="voices__note">でも、気をつかう店ばかり。</p>
+          </li>
+          <li class="voices__item">
+            <p class="voices__quote">「急かされたくない」</p>
+            <p class="voices__note">でも、昼休みは60分。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 03 わたしたちのこと（オーナー） -->
+    <section class="section story" id="about">
+      <div class="container">
+        <p class="display">Our story</p>
+        <div class="story__body">
+          <img class="story__photo" src="images/owner.jpg" alt="オーナーの森田 澪">
+          <div class="story__message">
+            <p class="eyebrow">ABOUT GREEN OASIS</p>
+            <h2 class="heading">「ちゃんと食べる」を、<br>日常のまんなかに。</h2>
+            <div class="story__text">
+              <p>仕事に追われて、食事を後回しにしていた日々。<br>そんな私を変えたのは、祖母の畑で採れた野菜を、ゆでて塩をふるだけの食事でした。</p>
+              <p>体にいいから我慢するのではなく、おいしいから選ぶ。<br>忙しい日にも、ひとりで気軽に立ち寄れる。<br>そんな場所を、渋谷につくりたいと思いました。</p>
+            </div>
+            <p class="story__owner">Green Oasis オーナー　森田 澪</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 大切にしていること -->
+    <section class="section promises">
+      <div class="container">
+        <p class="eyebrow">OUR PROMISES</p>
+        <h2 class="heading">大切にしている、<br class="sp-only">3つのこと。</h2>
+        <ul class="cards">
+          <li class="card">
+            <img class="card__photo" src="images/promise-01.jpg" alt="木のテーブルに並んだ朝採れの野菜">
+            <h3 class="card__title">01　産地のわかる野菜</h3>
+            <p class="card__text">契約農家8軒から、毎朝届く野菜。<br>つくった人の顔が見える食材を、<br>日々のひと皿に。</p>
+          </li>
+          <li class="card">
+            <img class="card__photo" src="images/promise-02.jpg" alt="カウンター席と2人がけの席がある店内">
+            <h3 class="card__title">02　ひとりでも、居心地よく</h3>
+            <p class="card__text">カウンター席と、小さな2人がけ。<br>誰かと一緒の日も、ひとりの日も、<br>自分らしく過ごせる場所に。</p>
+          </li>
+          <li class="card">
+            <img class="card__photo" src="images/promise-03.jpg" alt="窓際の席でひとり、ゆっくり過ごすお客様">
+            <h3 class="card__title">03　ランチでも、急かしません</h3>
+            <p class="card__text">ランチタイムも時間制限はありません。<br>食べる時間も、食後のひと息も、<br>どうぞゆっくり。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 05 メニューと価格 -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="menu__intro">
+          <p class="display">Good food,<br>good days.</p>
+          <div class="menu__copy">
+            <p class="eyebrow">MENU &amp; PRICE</p>
+            <h2 class="heading heading--small">おいしいから、<br>また食べたくなる。</h2>
+            <p class="lead">契約農家の野菜を使った料理と、<br>ひと息つけるドリンクをご用意しています。</p>
+          </div>
+        </div>
+        <ul class="cards cards--menu">
+          <li class="card">
+            <img class="card__photo" src="images/menu-salad.jpg" alt="季節のサラダボウル">
+            <h3 class="card__title">季節のサラダボウル</h3>
+            <p class="card__text">¥1,200（税込）</p>
+          </li>
+          <li class="card">
+            <img class="card__photo" src="images/menu-coffee.jpg" alt="オーガニックコーヒー">
+            <h3 class="card__title">オーガニックコーヒー</h3>
+            <p class="card__text">¥600（税込）</p>
+          </li>
+          <li class="card">
+            <img class="card__photo" src="images/menu-smoothie.jpg" alt="グリーンスムージー">
+            <h3 class="card__title">グリーンスムージー</h3>
+            <p class="card__text">¥750（税込）</p>
+          </li>
+          <li class="card">
+            <img class="card__photo" src="images/menu-dessert.jpg" alt="本日のデザート（チーズケーキ）">
+            <h3 class="card__title">本日のデザート</h3>
+            <p class="card__text">¥650（税込）</p>
+          </li>
+        </ul>
+        <div class="menu__footer">
+          <p>ランチセット ¥1,200〜1,500（税込）<br>おひとり様も大歓迎です。</p>
+          <a class="button button--light menu__button" href="#">
+            <span>メニューをすべて見る</span><span class="button__arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 つくっている人 -->
+    <section class="section field" id="field">
+      <div class="container">
+        <div class="field__intro">
+          <p class="display">From the field.</p>
+          <div class="field__text">
+            <h2 class="heading">つくる人から、<br class="sp-only">食べる人へ。</h2>
+            <p class="lead">契約農家8軒から、毎朝届く野菜。<br>どこで、誰が育てたのか。その顔が見える食事を。</p>
+          </div>
+        </div>
+        <ul class="cards">
+          <li class="card">
+            <img class="card__photo" src="images/field-chiba.jpg" alt="収穫した根菜を抱える千葉の農家さん">
+            <h3 class="card__title">葉物と根菜 / 千葉</h3>
+            <p class="card__text">土から育てた季節の野菜を、<br>日々の料理へ。</p>
+          </li>
+          <li class="card">
+            <img class="card__photo" src="images/field-ibaraki.jpg" alt="茨城の畑で野菜を収穫する様子">
+            <h3 class="card__title">トマトとハーブ / 茨城</h3>
+            <p class="card__text">毎朝届く食材の産地を、<br>分かりやすくお伝えします。</p>
+          </li>
+          <li class="card">
+            <img class="card__photo" src="images/field-tokyo.jpg" alt="焙煎したてのコーヒー豆">
+            <h3 class="card__title">コーヒー豆 / 東京</h3>
+            <p class="card__text">野菜だけでなく、一杯のコーヒーも。<br>つくる人の顔が見えるお付き合いを。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 07 お客様の声 -->
+    <section class="section voice">
+      <div class="container voice__inner">
+        <p class="display">Voice</p>
+        <div class="voice__text">
+          <h2 class="heading heading--small">お客様の声</h2>
+          <p class="lead">ご来店いただいたお客様の感想を、<br>オープン後にご紹介します。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 よくある質問 -->
+    <section class="section faq" id="guide">
+      <div class="container faq__inner">
+        <div class="faq__heading">
+          <p class="display">FAQ</p>
+          <h2 class="faq__label">よくある質問</h2>
+        </div>
+        <!-- details と summary を使うと、JavaScriptなしで開け閉めできる -->
+        <div class="faq__list">
+          <details class="faq__item" open>
+            <summary>ひとりでも入りやすいですか？</summary>
+            <p>カウンター席と2人がけの席を多めにご用意しています。<br>おひとり様も大歓迎です。</p>
+          </details>
+          <details class="faq__item">
+            <summary>予約はできますか？</summary>
+            <p>はい、ご予約いただけます。<br>当日のご予約も受け付けています。ひとりのご予約も歓迎です。</p>
+          </details>
+          <details class="faq__item">
+            <summary>ランチはいくらくらいですか？</summary>
+            <p>ランチセットは ¥1,200〜1,500（税込）です。</p>
+          </details>
+          <details class="faq__item">
+            <summary>アレルギーへの対応はしていますか？</summary>
+            <p>食物アレルギーのある方は、ご予約時またはご注文前にスタッフへご相談ください。<br>使用食材は当日の仕入れによって変わる場合があります。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09 お知らせ -->
+    <section class="section news" id="news">
+      <div class="container">
+        <div class="news__heading">
+          <p class="display">News</p>
+          <h2 class="news__label">お知らせ</h2>
+        </div>
+        <ul class="news__list">
+          <li>
+            <a class="news__item" href="#">
+              <time datetime="2026-09-01">2026.09.01</time>
+              <span>秋の新メニューが始まりました</span>
+            </a>
+          </li>
+          <li>
+            <a class="news__item" href="#">
+              <time datetime="2026-08-20">2026.08.20</time>
+              <span>9月の営業時間について</span>
+            </a>
+          </li>
+          <li>
+            <a class="news__item" href="#">
+              <time datetime="2026-08-05">2026.08.05</time>
+              <span>Instagramを始めました</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 10 アクセス -->
+    <section class="section access" id="access">
+      <div class="container">
+        <p class="display">Come on in.</p>
+        <div class="access__body">
+          <img class="access__photo" src="images/storefront.jpg" alt="Green Oasis の店舗外観">
+          <div class="access__info">
+            <p class="eyebrow">ACCESS &amp; INFORMATION</p>
+            <h2 class="heading">渋谷の路地裏で、<br>お待ちしています。</h2>
+            <dl class="access__table">
+              <div><dt>アクセス</dt><dd>渋谷駅 徒歩5分</dd></div>
+              <div><dt>営業時間</dt><dd>8:00–20:00（L.O. 19:30）</dd></div>
+              <div><dt>定休日</dt><dd>水曜日</dd></div>
+              <div><dt>席数</dt><dd>24席 / カウンター10席</dd></div>
+              <div><dt>住所</dt><dd>東京都渋谷区〇〇 1-2-3</dd></div>
+              <div><dt>電話</dt><dd>03-0000-0000</dd></div>
+            </dl>
+            <a class="button button--dark access__button" href="#">
+              <span>席を予約する</span><span class="button__arrow">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__message">
+        <p>今日のひと息を、ここで。</p>
+        <a class="button button--light site-footer__button" href="#access">
+          <span>席を予約する</span><span class="button__arrow">↗</span>
+        </a>
+      </div>
+
+      <div class="site-footer__details">
+        <div class="site-footer__store">
+          <p class="site-footer__brand">Green Oasis</p>
+          <address>渋谷駅 徒歩5分<br>東京都渋谷区〇〇 1-2-3<br>03-0000-0000</address>
+          <p>8:00–20:00（L.O. 19:30） / 水曜定休</p>
+        </div>
+        <nav class="site-footer__nav" aria-label="サイト内リンク">
+          <ul>
+            <li><a href="#about">カフェについて</a></li>
+            <li><a href="#menu">メニューと価格</a></li>
+            <li><a href="#field">つくっている人</a></li>
+          </ul>
+          <ul>
+            <li><a href="#guide">ご利用案内</a></li>
+            <li><a href="#news">お知らせ</a></li>
+            <li><a href="#access">ご予約</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <p class="site-footer__wordmark" aria-hidden="true">Green Oasis</p>
+
+      <div class="site-footer__legal">
+        <p><a href="#">プライバシーポリシー</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#">利用規約</a></p>
+        <p class="site-footer__copyright"><small>© 2026 Green Oasis</small></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
